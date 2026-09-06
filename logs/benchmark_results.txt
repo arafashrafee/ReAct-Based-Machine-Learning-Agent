@@ -1,0 +1,37 @@
+======================================================================
+CSE445 ML ASSIGNMENT #3 — BENCHMARK
+======================================================================
+Datasets: Iris, Wine
+Algorithms: Logistic Regression, Decision Tree, Random Forest
+Cross-validation: Stratified 5-Fold
+Random state: 42
+
+RESULTS
+----------------------------------------------------------------------
+Dataset           Algorithm Mean CV Accuracy Std. Deviation
+   iris Logistic Regression           0.9533         0.0506
+   iris       Decision Tree           0.9533         0.0380
+   iris       Random Forest           0.9600         0.0435
+   wine Logistic Regression           0.9833         0.0152
+   wine       Decision Tree           0.8932         0.0425
+   wine       Random Forest           0.9775         0.0238
+
+MARKDOWN COMPARISON TABLE
+----------------------------------------------------------------------
+| Dataset   | Algorithm           |   Mean CV Accuracy |   Std. Deviation |
+|:----------|:--------------------|-------------------:|-----------------:|
+| iris      | Logistic Regression |             0.9533 |           0.0506 |
+| iris      | Decision Tree       |             0.9533 |           0.038  |
+| iris      | Random Forest       |             0.96   |           0.0435 |
+| wine      | Logistic Regression |             0.9833 |           0.0152 |
+| wine      | Decision Tree       |             0.8932 |           0.0425 |
+| wine      | Random Forest       |             0.9775 |           0.0238 |
+
+BEST OVERALL CV RESULT
+----------------------------------------------------------------------
+Logistic Regression on wine | Mean CV Accuracy = 0.9833 | Std. Deviation = 0.0152
+
+BEST MODEL PER DATASET
+----------------------------------------------------------------------
+iris: Random Forest | Mean CV Accuracy = 0.9600 | Std. Deviation = 0.0435
+wine: Logistic Regression | Mean CV Accuracy = 0.9833 | Std. Deviation = 0.0152

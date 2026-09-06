@@ -1,0 +1,10 @@
+torch==2.14.0
+torchvision
+torchaudio
+scikit-learn==1.9.0
+pandas==3.0.5
+numpy==2.5.2
+requests==2.34.2
+pydantic
+matplotlib
+tabulate
